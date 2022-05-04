@@ -1,0 +1,50 @@
+.page-container {
+  margin: 0 auto;
+  height: 100%;
+  min-height: 100vh;
+  background-image: url('../../../public/images/BGLemonLime.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  .fruits-list {
+    margin: 0 auto;
+    // background-color: $bg-byellow;
+  
+    .filter-container {
+      // margin-top: 20px;
+    }
+    .fruit {
+      >a {
+        text-decoration: none;
+      }
+      .card {
+        border: 1px solid white;
+        box-shadow: $bs;
+        height: 350px;
+        max-width: 300px;
+        .card-img {
+          height: 80%;
+          object-fit: contain;
+          border-radius: 4px 4px 0 0;
+        }
+        .h5 {
+          font-size: 1rem;
+        }
+        .card-body {
+          border-radius: 0 0 4px 4px;
+          background:
+            linear-gradient($bg-red, transparent),
+            linear-gradient(to top left, $bg-peach, transparent),
+            linear-gradient(to top right, $bg-byellow, transparent);
+          background-blend-mode: screen;
+          font-family: $font-title;
+          font-size: 10px;
+          color: #322c6d;
+          height: 20%;
+        }
+      }
+    }
+  }
+}
+
