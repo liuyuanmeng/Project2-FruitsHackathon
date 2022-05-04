@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Gruppo&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Aclonica", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: "Gruppo", cursive;
+  height: 100%;
+}
+
+.site-wrapper {
+  height: 100%;
+  min-height: 100vh;
+  background-color: #f0f961;
+}
+
+.navbar {
+  background-color: #FB3636;
+  -webkit-box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+  font-family: "Aclonica", sans-serif;
+}
+
+.navbar img {
+  max-width: 40px;
+}
+
+.home-wrapper {
+  margin-top: 0;
+  height: 100%;
+  min-height: 100vh;
+  background-image: url("../../../public/images/FruitBackground2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.home-wrapper .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.home-wrapper .hero .hero-container {
+  margin-top: 200px;
+  border-radius: 8px;
+  border: 1px solid white;
+  text-shadow: #ff3f3f 0px 0px 10px;
+  padding: 20px 40px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.home-wrapper .hero .hero-container h1 {
+  font-family: "Aclonica", sans-serif;
+  margin-bottom: 0;
+}
+
+.home-wrapper .hero .hero-container p {
+  font-family: "Gruppo", cursive;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.home-wrapper .hero .hero-container .btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.home-wrapper .hero .hero-container .btn-container .btn {
+  font-family: "Aclonica", sans-serif;
+  width: 150px;
+  background-color: #ff3f3f;
+  color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.filter-container {
+  height: 50px;
+}
+
+.filter-container .dropdown {
+  color: #322c6d;
+  height: 30px;
+  width: 190px;
+  margin-right: 10px;
+}
+
+.page-container {
+  margin: 0 auto;
+  height: 100%;
+  min-height: 100vh;
+  background-image: url("../../../public/images/BGLemonLime.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.page-container .fruits-list {
+  margin: 0 auto;
+}
+
+.page-container .fruits-list .fruit > a {
+  text-decoration: none;
+}
+
+.page-container .fruits-list .fruit .card {
+  border: 1px solid white;
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  height: 350px;
+  max-width: 300px;
+}
+
+.page-container .fruits-list .fruit .card .card-img {
+  height: 80%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 4px 4px 0 0;
+}
+
+.page-container .fruits-list .fruit .card .h5 {
+  font-size: 1rem;
+}
+
+.page-container .fruits-list .fruit .card .card-body {
+  border-radius: 0 0 4px 4px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff3f3f), to(transparent)), -webkit-gradient(linear, right bottom, left top, from(#ffe8c5), to(transparent)), -webkit-gradient(linear, left bottom, right top, from(#f0f961), to(transparent));
+  background: linear-gradient(#ff3f3f, transparent), linear-gradient(to top left, #ffe8c5, transparent), linear-gradient(to top right, #f0f961, transparent);
+  background-blend-mode: screen;
+  font-family: "Aclonica", sans-serif;
+  font-size: 10px;
+  color: #322c6d;
+  height: 20%;
+}
+
+.container .fruit-title {
+  margin-top: 20px;
+}
+
+.container .img-container {
+  width: 50%;
+}
+
+.container .img-container img {
+  width: 100%;
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.container div h4 {
+  font-weight: bold;
+}
+
+.container div p {
+  font-size: 20px;
+}
+
+.container .btn {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 100%;
+  background-color: #ff3f3f;
+  color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.salad-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: calc(0.12 * 100vh);
+}
+
+.salad-page .slots-container {
+  background-image: url(../../../public/images/slots.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: calc(50% - 20px);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.salad-page .slots-container .flex-container {
+  height: calc(100% / 3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.salad-page .slots-container .flex-container .slot1 {
+  background-color: white;
+  width: 150px;
+  max-height: 150px;
+  margin: 0 10px;
+  margin-top: 8px;
+}
+
+.salad-page .slots-container .flex-container .slot1 img {
+  width: 100%;
+}
+
+.salad-page .slots-container .flex-container .slot2 {
+  background-color: white;
+  width: 150px;
+  max-height: 150px;
+  margin: 0 10px;
+  margin-top: 8px;
+}
+
+.salad-page .slots-container .flex-container .slot2 img {
+  width: 100%;
+}
+
+.salad-page .slots-container .flex-container .slot3 {
+  background-color: white;
+  width: 150px;
+  max-height: 150px;
+  margin: 0 10px;
+  margin-top: 8px;
+}
+
+.salad-page .slots-container .flex-container .slot3 img {
+  width: 100%;
+}
+
+.salad-page .salad-maker {
+  width: calc(50% - 20px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=main.css.map */

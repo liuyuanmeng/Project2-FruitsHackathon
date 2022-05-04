@@ -1,0 +1,22 @@
+.container .fruit-title {
+  margin-top: 20px;
+}
+
+.container .img-container {
+  width: 50%;
+}
+
+.container .img-container img {
+  width: 100%;
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.container div h4 {
+  font-weight: bold;
+}
+
+.container div p {
+  font-size: 20px;
+}
+/*# sourceMappingURL=fruitShow.css.map */

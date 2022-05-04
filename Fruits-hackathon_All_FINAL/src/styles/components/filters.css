@@ -1,0 +1,11 @@
+.filter-container {
+  height: 50px;
+}
+
+.filter-container .dropdown {
+  color: #322c6d;
+  height: 30px;
+  width: 190px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=filters.css.map */
