@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: $font-title;
+}
+
+body{
+  margin: 0;
+  font-family: $font-para;
+  height: 100%;
+}
+
+.site-wrapper{
+  height: 100%;
+  min-height: 100vh;
+  background-color: $bg-byellow;
+  // background-position: center;
+  // background-size: contain;
+  // background-repeat: no-repeat;
+}

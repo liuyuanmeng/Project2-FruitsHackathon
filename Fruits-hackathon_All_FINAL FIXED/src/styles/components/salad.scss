@@ -1,0 +1,132 @@
+.salad-page {
+  display: flex;
+  // display: center;
+  padding-top: calc(0.12 * 100vh);
+  padding-bottom: calc(0.12 * 100vh);
+  // margin: 0 auto;
+  // height: 100%;
+  // min-height: 100vh;
+  background-image: url('../../../public/images/FruitBackground.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  .slots-container {
+    margin: 50px auto;
+    background-image: url(../../../public/images/slots.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    // width: calc(50% - 20px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .flex-container {
+      height: calc(100% / 3);
+      // margin-top: calc(100% / 3);
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+
+      .slot1 {
+        background-color: white;
+        // position: absolute;
+        // top: 33%;
+        // left: 33%;
+        width: 150px;
+        max-height: 150px;
+        margin: 0 10px;
+        margin-top: 8px;
+        border-radius: 8px;
+        img {
+          width: 100%;
+        }
+      }
+      .slot2 {
+        background-color: white;
+        width: 150px;
+        max-height: 150px;
+        margin: 0 10px;
+        margin-top: 8px;
+        border-radius: 8px;
+        img {
+          width: 100%;
+        }
+      }
+      .slot3 {
+        background-color: white;
+        width: 150px;
+        max-height: 150px;
+        margin: 0 10px;
+        margin-top: 8px;
+        border-radius: 8px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .salad-maker {
+    width: calc(50% - 20px);
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: $bg-pyellow;
+    border-radius: 8px;
+
+    form {
+      width: 80%;
+      .all-fruits {
+        line-height: 40px;
+        .fruit-container {
+          label {
+            font-size: 20px;
+          }
+          select {
+            height:30px;
+            width: 200px;
+            float: right;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+
+    .salad-info{
+      width: 80%;
+      margin-top: 30px;
+      h4 {
+        font-weight: bold;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+    .btn{
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 50%;
+    
+      background-color: $bg-red;
+      color: white;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+  }
+}
+
+// .btn{
+//   margin: 0 auto;
+//   margin-top: 20px;
+//   width: 100%;
+
+//   background-color: $bg-red;
+//   color: white;
+//   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+// }
+

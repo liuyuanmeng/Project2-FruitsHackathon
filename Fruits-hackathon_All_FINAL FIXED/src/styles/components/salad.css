@@ -1,0 +1,95 @@
+.salad-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: calc(0.12 * 100vh);
+  padding-bottom: calc(0.12 * 100vh);
+}
+
+.salad-page .slots-container {
+  background-image: url(../../../public/images/slots.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: calc(50% - 20px);
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.salad-page .slots-container .flex-container {
+  height: calc(100% / 3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.salad-page .slots-container .flex-container .slot1 {
+  background-color: white;
+  width: 150px;
+  max-height: 150px;
+  margin: 0 10px;
+  margin-top: 8px;
+}
+
+.salad-page .slots-container .flex-container .slot1 img {
+  width: 100%;
+}
+
+.salad-page .slots-container .flex-container .slot2 {
+  background-color: white;
+  width: 150px;
+  max-height: 150px;
+  margin: 0 10px;
+  margin-top: 8px;
+}
+
+.salad-page .slots-container .flex-container .slot2 img {
+  width: 100%;
+}
+
+.salad-page .slots-container .flex-container .slot3 {
+  background-color: white;
+  width: 150px;
+  max-height: 150px;
+  margin: 0 10px;
+  margin-top: 8px;
+}
+
+.salad-page .slots-container .flex-container .slot3 img {
+  width: 100%;
+}
+
+.salad-page .salad-maker {
+  width: calc(80% - 20px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.salad-page .salad-maker form {
+  width: 80%;
+}
+
+.salad-page .salad-maker .salad-info {
+  width: 80%;
+}
+/*# sourceMappingURL=salad.css.map */
