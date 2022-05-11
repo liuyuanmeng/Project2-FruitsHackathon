@@ -2,6 +2,7 @@
   "name": "fruity-4-you",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://www.fruityvice.com/",
   "dependencies": {
     "axios": "^0.27.1",
     "bootstrap": "^5.1.3",
