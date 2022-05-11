@@ -9,7 +9,7 @@ import Spinner from '../Spinner'
 
 const Salad = () => {
 
-  const [fruits, setFruits] = useState(null)
+  const [fruits, setFruits] = useState([])
   const [errors, setErrors] = useState(false)
   const [fruit1, setFruit1] = useState({
     name: '',
@@ -156,7 +156,7 @@ const Salad = () => {
       <div className='salad-maker'>
         {/* <Container> */}
         {/* <Row> */}
-        {fruits ?
+        {fruits.length ?
           <>
             <form onSubmit={handleSubmit}>
               <h1>Salad Maker</h1>

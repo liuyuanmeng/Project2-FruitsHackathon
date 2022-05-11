@@ -26,6 +26,7 @@ const FruitsIndex = () => {
     const getFruits = async () => {
       try {
         const { data } = await axios.get('/api/fruit/all')
+        console.log(data)
         setFruits(data)
       } catch (err) {
         console.log(err)
@@ -47,6 +48,7 @@ const FruitsIndex = () => {
     // On initial page load, fruits will be empty, so we don’t need to create a list
     if (fruits.length) {
       const familyList = []
+      console.log(fruits)
       fruits.forEach(fruit => familyList.includes(fruit.family) ? '' : familyList.push(fruit.family))
       setFamilies(familyList)
     }
@@ -77,7 +79,7 @@ const FruitsIndex = () => {
                 <Link to={`/fruits/${id}`}>
                   <Card>
                     <Card.Img className='card-img' variant="top" src={`../../images/${fruit.name}.png`} />
-                    <Card.Body classname="fruit-names">
+                    <Card.Body className="fruit-names">
                       <Card.Title className='text-center mb-0'>{name} - {family}</Card.Title>
                     </Card.Body>
                   </Card>
