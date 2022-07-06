@@ -10,19 +10,19 @@ Fruity4You is an app that calculates all the nutritional information after your 
 You can find all the fruits on the fruits page. The dropdown and the search bar give you a shortcut if you want to search for any individual fruit or fruits in the same family.
 
 ## Technologies used:
-*React.js
-*Jacascript[Es6+]
-*React-bootstrap
-*Axios
-*SCSS
-*React Router
+* React.js
+* Jacascript[Es6+]
+* React-bootstrap
+* Axios
+* SCSS
+* React Router
 
 ## Dev tools
-*Insomnia
-*VS code
-*GitHub
-*Excalidraw (Wireframing)
-*Notify (deployment)
+* Insomnia
+* VS code
+* GitHub
+* Excalidraw (Wireframing)
+* Notify (deployment)
 
 
 ## API Used:
