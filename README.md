@@ -1,8 +1,17 @@
 # Project2-FruitsHackathon
+This was the second project for the Software Engineering Immersive course with GA.
 For this project, I worked in a team with two classmates [Jack](https://github.com/jackbdr) and [Fran](https://github.com/fransurf)
 It was a 1.5-day hackathon.
 
 The app has been deployed with Netlify and is available [Here] (https://fruity-4-you.netlify.app/)
+
+## Brief
+* <36 hours
+* Consume a public API – this could be anything but it must make sense for your project
+* Have several components - At least one classical and one functional
+* The app should include a router - with several “pages”
+* Include wireframes - that you designed before building the app
+* Be deployed online and accessible to the public
 
 ## Overview
 
@@ -11,15 +20,18 @@ You can find all the fruits on the fruits page. The dropdown and the search bar 
 
 ## Technologies used:
 * React.js
-* Jacascript[Es6+]
+* JavaScript [Es6+]
+
 * React-bootstrap
 * Axios
-* SCSS
+* Sass
+
 * React Router
 
 ## Dev tools
 * Insomnia
-* VS code
+* VSCode
+
 * GitHub
 * Excalidraw (Wireframing)
 * Notify (deployment)
@@ -30,7 +42,7 @@ You can find all the fruits on the fruits page. The dropdown and the search bar 
 
 ## Approach Taken
 **Planing and Preparation:**\
-As a group, we quickly decided on the API. We were limited to free APIs, and it was only a 1.5 days project, so we knew we needed the one we had to work out.
+As a group, we quickly decided on the API. We were limited to free APIs, and it was only a 1.5 days project, My teammates and I decided we would code along together and for a small quick project like this it worked really well. 
 
 This API allows us to:
 -Get fruits from the entire database (which contains the name of the fruit, family of the fruit, ID of the fruit, and nutrition information of the fruit)
@@ -61,7 +73,7 @@ And decided on the main features we hoped to implement
 Now that we were happy with the design and API, we could start building the front end. We decided to work separately to develop our pages but worked closely on zoom. 
 
 
-My job was to create a page that would display all fruits and have a dropdown and search bar. 
+My job was to create a page that would display all fruits and have a dropdown and search bar. To make this page, I decided only the image and name of the fruits would be displayed. Once users click on the single fruit will find more information. The users can use the search bar to search fruits by name or family. In the dropdown, users can access all fruits or different families of fruits.
 
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/100864042/177532531-cbdb1aaf-01bd-464e-a1cb-5f08e6e84c14.gif)
 
@@ -151,8 +163,12 @@ Displayed the fruit's name, image, and family. API didn’t provide pictures of 
 
 ##  Reflection
 
-###  Challenges 
-We needed to prioritise tasks due to a short time.
+###  Wins & Key Learnings 
+* Learning to group code and delegate tasks whilst working to meet a deadline.
+* The project was invaluable in terms of working as a group and learning how other people approach code.
+* Separating the .js files into different components to make the code cleaner.
+* Learning how to consume a public API.
+* Using React and Insomnia for the first time.
 
 ### Future Features
 Mobile responsive 
