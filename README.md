@@ -15,7 +15,7 @@ The app has been deployed with Netlify and is available [Here] (https://fruity-4
 
 ## Overview
 
-Fruity4You is an app that calculates all the nutritional information after your three choices.
+Fruity4You is an app that calculates all the nutritional information after users three choices of their favourite fruits.
 You can find all the fruits on the fruits page. The dropdown and the search bar give you a shortcut if you want to search for any individual fruit or fruits in the same family.
 
 ## Technologies used:
