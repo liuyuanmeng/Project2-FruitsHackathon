@@ -52,6 +52,9 @@ We used Insomnia to test the response to ensure we got all the information we ne
 
 We used Excalidraw to plan the front-end layout and what the website flow would look like.
 :<img width="600" alt="Screenshot 2022-06-28 at 11 22 51" src="https://user-images.githubusercontent.com/100864042/177531456-38e8d649-321d-4b23-9d26-7b8f1a16c68b.png">
+
+
+
 And decided on the main features we hoped to implement
 
 
