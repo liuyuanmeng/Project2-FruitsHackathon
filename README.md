@@ -166,12 +166,19 @@ Displayed the fruit's name, image, and family. API didn’t provide pictures of 
 
 ##  Reflection
 
-###  Wins & Key Learnings 
-* Learning to group code and delegate tasks whilst working to meet a deadline.
-* The project was invaluable in terms of working as a group and learning how other people approach code.
-* Separating the .js files into different components to make the code cleaner.
-* Learning how to consume a public API.
-* Using React and Insomnia for the first time.
+### Key Learnings 
+* Separating the .js files into different components to make the code cleaner
+* Learning how to consume a public API
+* Using React/Insomnia for the first time
+
+
+###  Wins 
+
+* Learning to group code and delegate tasks whilst working to meet a deadline
+* Learning how other people approach code.
+* Planning is the key to any project but is especially important under a short deadline.
+
+
 
 ### Future Features
 Mobile responsive 
