@@ -166,6 +166,13 @@ Displayed the fruit's name, image, and family. API didn’t provide pictures of 
 
 ##  Reflection
 
+### Challenges 
+The API did not provide any images. We spend some time trying out how to add pictures dynamically.
+
+### Bugs
+No obvious bugs.
+
+
 ### Key Learnings 
 * Separating the .js files into different components to make the code cleaner
 * Learning how to consume a public API
