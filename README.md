@@ -3,7 +3,7 @@ This was the second project for the Software Engineering Immersive course with G
 For this project, I worked in a team with two classmates [Jack](https://github.com/jackbdr) and [Fran](https://github.com/fransurf)
 It was a 1.5-day hackathon.
 
-The app has been deployed with Netlify and is available [Here] (https://fruity-4-you.netlify.app/)
+The app has been deployed with Netlify and is available [Here] (https://fruity4you.netlify.app/)
 
 ## Brief
 * <36 hours
