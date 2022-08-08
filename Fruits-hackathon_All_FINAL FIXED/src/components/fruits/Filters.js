@@ -6,7 +6,7 @@ const Filters = ({ filters, families, handleChange }) => {
       {/* Family dropdown */}
       <select className='dropdown' name='family' value={filters.family} onChange={handleChange}>
         <option value='All'>All</option>
-        {/* Loop through regionList */}
+        {/* Loop through familyList */}
         {families.map(family => <option key={family} value={family}>{family}</option>)}
       </select >
       {/* Search field */}
