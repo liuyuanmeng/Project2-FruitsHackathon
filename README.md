@@ -168,6 +168,11 @@ Displayed the fruit's name, image, and family. API didn’t provide pictures of 
 
 ### Challenges 
 The API did not provide any images. We spend some time trying out how to add pictures dynamically.
+Workout for CORS errer. Solved with placed address in the package.json as a proxy:
+```"proxy":"https://www.fruityvice.com",
+The axios request then only needs:
+```const { data } = await axios.get('/api/fruit/all')```
+
 
 ### Bugs
 No obvious bugs.
