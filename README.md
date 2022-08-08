@@ -77,7 +77,7 @@ Now that we were happy with the design and API, we could start building the fron
 
 ## Division of Work: 
 Fran: FruitShow page. A simple page presenting nutritional information of an individually selected fruit and Styling across over the site.
-Jack: Salad-maker page. The salad maker is presented over another mouth-watering fruit image. To the right, is the user-input fruit salad maker selection and nutritional information form. To the left, is the fruit slot machine, which updates with the selected fruits.
+Jack: Salad-maker page(Fruits nutrition calculator). The salad maker is presented fruit image. To the right, is the user-input fruit salad maker selection and nutritional information form. To the left, is the fruit slot machine, which updates with the selected fruits.
 
 
 My job was to create a page that would display all fruits and have a dropdown and search bar. To make this page, I decided only the image and name of the fruits would be displayed. Once users click on the single fruit will find more information. The users can use the search bar to search fruits by name or family. In the dropdown, users can access all fruits or different families of fruits.
